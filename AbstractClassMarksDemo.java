@@ -30,14 +30,14 @@ class StudentB extends Marks{
 		double per_tage;
 		sum=s1+s2+s3+s4;
 		per_tage=sum/4.0;
-		System.out.println("The percentage of student B is:"+per_tage+"%");	
+		System.out.println("The percentage of student b is:"+per_tage+"%");	
 	}
 }
 public class AbstractClassMarksDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		StudentA a=new StudentA(87,98,95);
+		StudentA a=new StudentA(80,98,95);
 		StudentB b=new StudentB(90,97,90,85);
 		a.getpercentage();
 		b.getpercentage();
